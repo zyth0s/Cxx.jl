@@ -271,3 +271,7 @@ As of now Cxx.jl does not allow redefinition of a function. In order to allow de
 ```julia
 __current_compiler__ = Cxx.new_clang_instance()
 ```
+
+### Limitations
+
+Please, note that currently Cxx.jl only works with Julia 1.3 or older.
